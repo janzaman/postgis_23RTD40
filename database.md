@@ -1,5 +1,6 @@
 # Setting up database
 ## Create database
+```
 -- Database: 23RTD40
 
 -- DROP DATABASE IF EXISTS "23RTD40";
@@ -14,5 +15,6 @@ CREATE DATABASE "23RTD40"
     TABLESPACE = pg_default
     CONNECTION LIMIT = -1
     IS_TEMPLATE = False;
+```
     
 ## Add data
