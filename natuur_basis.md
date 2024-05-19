@@ -1,5 +1,8 @@
 # Maak basislaag Natuur
 
+we maken de lagen aa_natuur_slecht en aa_natuur_matig voor verdere verwerking
+basis is de vectordata Natuur uit het database document
+
 ```
 drop table if exists aa_natuur_basis_slecht;
 create table aa_natuur_basis_slecht as 
