@@ -114,7 +114,7 @@ knooppuntwaarde: eerst selectie van de slecht gelegen categorieën, gebaseerd op
 ```
 C:\> raster2pgsql -s 31370 -I -C -M C:\Users\janza\Documents\02_gis\23RTD40\Rasters\Ontwikkelingskansen2022\knooppuntwaarde_OV_2022_natural_breaks_25_Slecht.tif -F -t 25x25 public.knooppuntwaardeslecht | psql -U postgres -d 23RTD40
 ```
-pluviaal overstromingsgevoelig
+pluviaal overstromingsgevoelig toekomstig klimaat klein risico (t1000) 
 ```
 C:\> raster2pgsql -s 31370 -I -C -M C:\Users\janza\Documents\02_gis\23RTD40\Rasters\Water_Overstroombaargebied\waterdiepte_PLU_hCC_T10_Groterdan0.tif -F -t 2x2 public.plu_hcc_t10 | psql -U postgres -d 23RTD40
 ```
