@@ -195,6 +195,21 @@ PostGIS type: MULTIPOLYGON[2]
 Shapefile import completed.
 ```
 
+### Vector data bodem
+
+```
+Importing with configuration: bodemkundig_erfgoed, public, geom, C:\Users\janza\Documents\02_gis\23RTD40\Shapefiles\Bronnen\Bodem\Bodemkundig_erfgoed.shp, mode=c, dump=1, simple=0, geography=0, index=1, shape=1, srid=31370
+Shapefile type: Polygon
+PostGIS type: MULTIPOLYGON[2]
+Shapefile import completed.
+
+==============================
+Importing with configuration: gevoeligheid_voor_grondverschuivingen, public, geom, C:\Users\janza\Documents\02_gis\23RTD40\Shapefiles\Bronnen\Bodem\gevoeligheid_voor_grondverschuivingen.shp, mode=c, dump=1, simple=0, geography=0, index=1, shape=1, srid=31370
+Shapefile type: Polygon
+PostGIS type: MULTIPOLYGON[2]
+Shapefile import completed.
+```
+
 ### Raster data
 voorzieningenniveau: eerst selectie van de slecht gelegen categorieën, gebaseerd op een indeling van de waarden in vier klassen volgens Jencks Natural Breaks, dan omzetten in een 1 bit raster
 ```
