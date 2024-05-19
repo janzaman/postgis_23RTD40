@@ -10,8 +10,8 @@ union
 select public.listot_uitarcgis.geom
 from public.listot_uitarcgis;
 ```
-blijkbaar zit er een topologiefout in het resulterende bestand
-we lossen dit op door een buffer van 0 meter te tekenen die wel geometrisch correct is
+Blijkbaar zit er een topologiefout in het resulterende bestand.
+We lossen dit op door een buffer van 0 meter te tekenen die wel geometrisch correct is.
 ```
 drop table if exists aa_landbouw_01;
 create table aa_landbouw_01 as 
