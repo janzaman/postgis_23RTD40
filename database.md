@@ -104,23 +104,7 @@ CREATE EXTENSION IF NOT EXISTS postgis_topology
     VERSION "3.4.1";
 ```
 ## Add data
-
-### Raster data
-voorzieningenniveau: eerst selectie van de slecht gelegen categorieën, gebaseerd op een indeling van de waarden in vier klassen volgens Jencks Natural Breaks, dan omzetten in een 1 bit raster
-```
-C:\> raster2pgsql -s 31370 -I -C -M C:\Users\janza\Documents\02_gis\23RTD40\Rasters\Ontwikkelingskansen2022\voorzieningsniveau_2022_natural_breaks_25_Slecht.tif -F -t 25x25 public.voorzieningenslecht | psql -U postgres -d 23RTD40
-```
-knooppuntwaarde: eerst selectie van de slecht gelegen categorieën, gebaseerd op een indeling van de waarden in vier klassen volgens Jencks Natural Breaks, dan omzetten in een 1 bit raster
-```
-C:\> raster2pgsql -s 31370 -I -C -M C:\Users\janza\Documents\02_gis\23RTD40\Rasters\Ontwikkelingskansen2022\knooppuntwaarde_OV_2022_natural_breaks_25_Slecht.tif -F -t 25x25 public.knooppuntwaardeslecht | psql -U postgres -d 23RTD40
-```
-pluviaal overstromingsgevoelig toekomstig klimaat klein risico (t1000) 
-```
-C:\> raster2pgsql -s 31370 -I -C -M C:\Users\janza\Documents\02_gis\23RTD40\Rasters\Water_Overstroombaargebied\waterdiepte_PLU_hCC_T10_Groterdan0.tif -F -t 2x2 public.plu_hcc_t10 | psql -U postgres -d 23RTD40
-```
-
-
-### Vector data 
+### Vector data Natuur
 
 using postgis Shapefile Import/Export manager tool
 
@@ -153,3 +137,19 @@ Shapefile type: Polygon
 PostGIS type: MULTIPOLYGON[2]
 Shapefile import completed.
 ```
+
+### Raster data
+voorzieningenniveau: eerst selectie van de slecht gelegen categorieën, gebaseerd op een indeling van de waarden in vier klassen volgens Jencks Natural Breaks, dan omzetten in een 1 bit raster
+```
+C:\> raster2pgsql -s 31370 -I -C -M C:\Users\janza\Documents\02_gis\23RTD40\Rasters\Ontwikkelingskansen2022\voorzieningsniveau_2022_natural_breaks_25_Slecht.tif -F -t 25x25 public.voorzieningenslecht | psql -U postgres -d 23RTD40
+```
+knooppuntwaarde: eerst selectie van de slecht gelegen categorieën, gebaseerd op een indeling van de waarden in vier klassen volgens Jencks Natural Breaks, dan omzetten in een 1 bit raster
+```
+C:\> raster2pgsql -s 31370 -I -C -M C:\Users\janza\Documents\02_gis\23RTD40\Rasters\Ontwikkelingskansen2022\knooppuntwaarde_OV_2022_natural_breaks_25_Slecht.tif -F -t 25x25 public.knooppuntwaardeslecht | psql -U postgres -d 23RTD40
+```
+pluviaal overstromingsgevoelig toekomstig klimaat klein risico (t1000) 
+```
+C:\> raster2pgsql -s 31370 -I -C -M C:\Users\janza\Documents\02_gis\23RTD40\Rasters\Water_Overstroombaargebied\waterdiepte_PLU_hCC_T10_Groterdan0.tif -F -t 2x2 public.plu_hcc_t10 | psql -U postgres -d 23RTD40
+```
+
+
