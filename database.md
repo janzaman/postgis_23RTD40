@@ -118,3 +118,38 @@ pluviaal overstromingsgevoelig toekomstig klimaat klein risico (t1000)
 ```
 C:\> raster2pgsql -s 31370 -I -C -M C:\Users\janza\Documents\02_gis\23RTD40\Rasters\Water_Overstroombaargebied\waterdiepte_PLU_hCC_T10_Groterdan0.tif -F -t 2x2 public.plu_hcc_t10 | psql -U postgres -d 23RTD40
 ```
+
+
+### Vector data 
+
+using postgis Shapefile Import/Export manager tool
+
+Connecting:  host=localhost port=5432 user=postgres password='********' dbname=23RTD40 client_encoding=UTF8
+Connection succeeded.
+
+```
+Importing with configuration: bwk_habitat, public, geom, C:\Users\janza\Documents\02_gis\23RTD40\Shapefiles\Bronnen\Natuur\Bwk_Habitat.shp, mode=c, dump=1, simple=0, geography=0, index=1, shape=1, srid=31370
+Shapefile type: Polygon
+PostGIS type: MULTIPOLYGON[2]
+Shapefile import completed.
+
+==============================
+Importing with configuration: habitatrichtlijngebieden, public, geom, C:\Users\janza\Documents\02_gis\23RTD40\Shapefiles\Bronnen\Natuur\Habitatrichtlijngebieden.shp, mode=c, dump=1, simple=0, geography=0, index=1, shape=1, srid=31370
+Shapefile type: Polygon
+PostGIS type: MULTIPOLYGON[2]
+Shapefile import completed.
+
+==============================
+Importing with configuration: hb_vegbesl, public, geom, C:\Users\janza\Documents\02_gis\23RTD40\Shapefiles\Bronnen\Natuur\hb_vegbesl.shp, mode=c, dump=1, simple=0, geography=0, index=1, shape=1, srid=31370
+Shapefile type: Polygon
+PostGIS type: MULTIPOLYGON[2]
+Shapefile import completed.
+```
+probleem met de laag ps_ven 'illegal byte sequence', eerst in QGIS exporteren naar 31370 en UTF-8 encoding => ps_ven2.shp
+
+```
+Importing with configuration: ps_ven2, public, geom, C:\Users\janza\Documents\02_gis\23RTD40\Shapefiles\Bronnen\Natuur\ps_ven2.shp, mode=c, dump=1, simple=0, geography=0, index=1, shape=1, srid=31370
+Shapefile type: Polygon
+PostGIS type: MULTIPOLYGON[2]
+Shapefile import completed.
+```
