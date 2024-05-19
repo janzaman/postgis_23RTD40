@@ -138,6 +138,63 @@ PostGIS type: MULTIPOLYGON[2]
 Shapefile import completed.
 ```
 
+### Vector data Erfgoed
+
+```
+Importing with configuration: bes_arch_site, public, geom, C:\Users\janza\Documents\02_gis\23RTD40\Shapefiles\Bronnen\Erfgoed\bes_arch_site.shp, mode=c, dump=1, simple=0, geography=0, index=1, shape=1, srid=31370
+Shapefile type: Polygon
+PostGIS type: MULTIPOLYGON[2]
+Shapefile import completed.
+
+==============================
+Importing with configuration: bes_landschap, public, geom, C:\Users\janza\Documents\02_gis\23RTD40\Shapefiles\Bronnen\Erfgoed\bes_landschap.shp, mode=c, dump=1, simple=0, geography=0, index=1, shape=1, srid=31370
+Shapefile type: Polygon
+PostGIS type: MULTIPOLYGON[2]
+Shapefile import completed.
+
+==============================
+Importing with configuration: bes_sd_gezicht, public, geom, C:\Users\janza\Documents\02_gis\23RTD40\Shapefiles\Bronnen\Erfgoed\bes_sd_gezicht.shp, mode=c, dump=1, simple=0, geography=0, index=1, shape=1, srid=31370
+Shapefile type: Polygon
+PostGIS type: MULTIPOLYGON[2]
+Shapefile import completed.
+
+==============================
+Importing with configuration: erfgoedls, public, geom, C:\Users\janza\Documents\02_gis\23RTD40\Shapefiles\Bronnen\Erfgoed\erfgoedls.shp, mode=c, dump=1, simple=0, geography=0, index=1, shape=1, srid=31370
+Shapefile type: Polygon
+PostGIS type: MULTIPOLYGON[2]
+Shapefile import completed.
+
+==============================
+Importing with configuration: landschappelijk_elementen, public, geom, C:\Users\janza\Documents\02_gis\23RTD40\Shapefiles\Bronnen\Erfgoed\landschappelijk_elementen.shp, mode=c, dump=1, simple=0, geography=0, index=1, shape=1, srid=31370
+Shapefile type: Polygon
+PostGIS type: MULTIPOLYGON[2]
+Shapefile import completed.
+
+==============================
+Importing with configuration: landschappelijk_gehelen, public, geom, C:\Users\janza\Documents\02_gis\23RTD40\Shapefiles\Bronnen\Erfgoed\landschappelijk_gehelen.shp, mode=c, dump=1, simple=0, geography=0, index=1, shape=1, srid=31370
+Shapefile type: Polygon
+PostGIS type: MULTIPOLYGON[2]
+Shapefile import completed.
+
+==============================
+Importing with configuration: unesco_buffer, public, geom, C:\Users\janza\Documents\02_gis\23RTD40\Shapefiles\Bronnen\Erfgoed\unesco_buffer.shp, mode=c, dump=1, simple=0, geography=0, index=1, shape=1, srid=31370
+Shapefile type: Polygon
+PostGIS type: MULTIPOLYGON[2]
+Shapefile import completed.
+
+==============================
+Importing with configuration: unesco_kern, public, geom, C:\Users\janza\Documents\02_gis\23RTD40\Shapefiles\Bronnen\Erfgoed\unesco_kern.shp, mode=c, dump=1, simple=0, geography=0, index=1, shape=1, srid=31370
+Shapefile type: Polygon
+PostGIS type: MULTIPOLYGON[2]
+Shapefile import completed.
+
+==============================
+Importing with configuration: vast_la, public, geom, C:\Users\janza\Documents\02_gis\23RTD40\Shapefiles\Bronnen\Erfgoed\vast_la.shp, mode=c, dump=1, simple=0, geography=0, index=1, shape=1, srid=31370
+Shapefile type: Polygon
+PostGIS type: MULTIPOLYGON[2]
+Shapefile import completed.
+```
+
 ### Raster data
 voorzieningenniveau: eerst selectie van de slecht gelegen categorieën, gebaseerd op een indeling van de waarden in vier klassen volgens Jencks Natural Breaks, dan omzetten in een 1 bit raster
 ```
