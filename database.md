@@ -210,6 +210,22 @@ PostGIS type: MULTIPOLYGON[2]
 Shapefile import completed.
 ```
 
+### Vector data Landbouw
+
+```
+==============================
+Importing with configuration: lis_uirarc_10m_aaneengesloten_10haofmeer, public, geom, C:\Users\janza\Documents\02_gis\23RTD40\Shapefiles\Bronnen\Landbouw\lis_uirarc_10m_aaneengesloten_10haofmeer.shp, mode=c, dump=1, simple=0, geography=0, index=1, shape=1, srid=31370
+Shapefile type: Polygon
+PostGIS type: MULTIPOLYGON[2]
+Shapefile import completed.
+
+==============================
+Importing with configuration: listot_uitarcgis, public, geom, C:\Users\janza\Documents\02_gis\23RTD40\Shapefiles\Bronnen\Landbouw\Listot_uitArcGis.shp, mode=c, dump=1, simple=0, geography=0, index=1, shape=1, srid=31370
+Shapefile type: Polygon
+PostGIS type: MULTIPOLYGON[2]
+Shapefile import completed.
+```
+
 ### Raster data
 voorzieningenniveau: eerst selectie van de slecht gelegen categorieën, gebaseerd op een indeling van de waarden in vier klassen volgens Jencks Natural Breaks, dan omzetten in een 1 bit raster
 ```
