@@ -226,6 +226,41 @@ PostGIS type: MULTIPOLYGON[2]
 Shapefile import completed.
 ```
 
+### Vector data Hinder
+
+```
+==============================
+Importing with configuration: 20231005_irc10-7, public, geom, C:\Users\janza\Documents\02_gis\23RTD40\Shapefiles\Bronnen\Hinder\20231005_IRC10-7.shp, mode=c, dump=1, simple=0, geography=0, index=1, shape=1, srid=31370
+Shapefile type: Polygon
+PostGIS type: MULTIPOLYGON[2]
+Shapefile import completed.
+
+==============================
+Importing with configuration: hh_lucht_lden_2021, public, geom, C:\Users\janza\Documents\02_gis\23RTD40\Shapefiles\Bronnen\Hinder\hh_lucht_lden_2021.shp, mode=c, dump=1, simple=0, geography=0, index=1, shape=1, srid=31370
+Shapefile type: Polygon
+PostGIS type: MULTIPOLYGON[2]
+Shapefile import completed.
+
+==============================
+Importing with configuration: hh_spoor_lden_2021, public, geom, C:\Users\janza\Documents\02_gis\23RTD40\Shapefiles\Bronnen\Hinder\hh_spoor_lden_2021.shp, mode=c, dump=1, simple=0, geography=0, index=1, shape=1, srid=31370
+Shapefile type: Polygon
+PostGIS type: MULTIPOLYGON[2]
+Shapefile import completed.
+
+==============================
+Importing with configuration: hh_weg_aan_lden_2021, public, geom, C:\Users\janza\Documents\02_gis\23RTD40\Shapefiles\Bronnen\Hinder\hh_weg_aan_lden_2021.shp, mode=c, dump=1, simple=0, geography=0, index=1, shape=1, srid=31370
+Shapefile type: Polygon
+PostGIS type: MULTIPOLYGON[2]
+Shapefile import completed.
+
+==============================
+Importing with configuration: Hoogspanningslijnen_Lambert_Vlaanderen, public, geom, C:\Users\janza\Documents\02_gis\23RTD40\Shapefiles\Bronnen\Hoogspanningslijnen_Lambert_Vlaanderen.shp, mode=c, dump=1, simple=0, geography=0, index=1, shape=1, srid=31370
+Shapefile type: Arc
+PostGIS type: MULTILINESTRING[2]
+Shapefile import completed.
+```
+
+
 ### Raster data
 voorzieningenniveau: eerst selectie van de slecht gelegen categorieën, gebaseerd op een indeling van de waarden in vier klassen volgens Jencks Natural Breaks, dan omzetten in een 1 bit raster
 ```
